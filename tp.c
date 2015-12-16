@@ -85,7 +85,7 @@ int get_option()
   printf("\n5: trier la liste");
   printf("\n6: sauvegarder le fichier modifie");
   printf("\n0: Quitter l'application");
-  printf("\n\n Choix:");
+  printf("\n\nChoix:");
   scanf("%d",&option);
 
   while ((option < 0) || (option>6))
@@ -140,6 +140,7 @@ void affiche_option (LISTE *first)
     break;
     }
   }
+  exit(0);
 }
 
 
